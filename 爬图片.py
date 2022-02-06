@@ -22,3 +22,4 @@ html=gethtml(url)
 example='><img src=("https://unicover.duxiu.com/coverNew/CoverNew.dll.iid=.+?") alt=""><p>图书</p></di'
 picture_url=re.findall(example,html)
 print(picture_url)
+##试一试
